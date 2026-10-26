@@ -1,0 +1,21 @@
+# This folder has two parts.
+#
+# 1. The shared AIOS: every file that came with the AIOS repository. git tracks them, and
+#    "update the AIOS" brings their newest version. Do not edit them.
+# 2. Your own part: everything you and Claude create here. git ignores ALL of it, so it is
+#    never shared with anyone and an update never changes it. For example:
+.env
+.env.local
+aios.json
+.mcp.json
+context/
+knowledge/
+tasks/
+active/
+projects/
+private/
+.tmp/
+.claude/settings.local.json
+# ...and your own skills, agents, scripts, directives and migrations: anything that did not
+# come with the repository.
+*
